@@ -1,0 +1,62 @@
+{
+    "4542" : {
+        "type" : "current",
+        "pump" : "back_pump",
+        "unit" : "A",
+        "coefficient" : 0.1
+    },
+    "4543" : {
+        "type" : "temperature",
+        "pump" : "back_pump",
+        "unit" : "C",
+        "coefficient" : 1
+    },
+    "4544" : {
+        "type" : "cooling_water",
+        "pump" : "back_pump",
+        "unit" : "L/m",
+        "coefficient" : 0.1
+    },
+    "4545" : {
+        "type" : "back_pressure",
+        "pump" : "back_pump",
+        "unit" : "kPa",
+        "coefficient" : 1
+    },
+    "4546" : {
+        "type" : "N2_purge_flow",
+        "pump" : "back_pump",
+        "unit" : "SLM",
+        "coefficient" : 0.1
+    },
+    "4550" : {
+        "type" : "current",
+        "pump" : "fore_pump",
+        "unit" : "A",
+        "coefficient" : 0.1
+    },
+    "4552" : {
+        "type" : "speed",
+        "pump" : "back_pump",
+        "unit" : "rpm",
+        "coefficient" : 1
+    },
+    "4553" : {
+        "type" : "speed",
+        "pump" : "fore_pump",
+        "unit" : "rpm",
+        "coefficient" : 1
+    },
+    "4542" : {
+        "type" : "running_time",
+        "pump" : "whole",
+        "unit" : "hours",
+        "coefficient" : 1000
+    },
+    "4542" : {
+        "type" : "current",
+        "pump" : "whole",
+        "unit" : "A",
+        "coefficient" : 0.1
+    }
+}
