@@ -41,6 +41,15 @@ def calculate_checksum(cmd: str) -> str:
 
 with open("config.json", "r") as jsonfile:
     data = json.load(jsonfile)
-command_list = [calculate_checksum(f"@00RE00{i}0001") for i in data.keys()]
-print(command_list)
-# print(data[i]['type'])
+
+ser = ser_obj()
+for i in data.keys():
+    cmd = calculate_checksum(f"@00RE00{i}0001")
+    ser.write(cmd)
+    sleep(0.3)
+    output = ser.readline()
+    print(output)
+    data[i]['output'] = output
+ser.close()
+
+print(data)
