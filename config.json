@@ -47,16 +47,16 @@
         "unit" : "rpm",
         "coefficient" : 1
     },
-    "4542" : {
+    "4601" : {
         "type" : "running_time",
         "pump" : "whole",
         "unit" : "hours",
         "coefficient" : 1000
     },
-    "4542" : {
+    "4602" : {
         "type" : "current",
         "pump" : "whole",
-        "unit" : "A",
+        "unit" : "hours",
         "coefficient" : 0.1
     }
 }
